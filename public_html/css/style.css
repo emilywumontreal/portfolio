@@ -1,0 +1,136 @@
+/* full screen bg image example */
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;  /*reduce the two pixels that increase the width of object!!!!*/
+}
+
+html, body {
+	height: 100%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+section {
+/* 	border: 1px solid black; */
+	height: 100%;
+	width: 100%;
+
+}
+
+
+#s1 {
+	background: url(../images/bio.jpg) no-repeat fixed center center;
+	background-size: cover;
+
+}
+
+#s2 {
+	background: url(../images/movie3.jpg) no-repeat fixed center center;
+	background-size: cover;
+
+}
+
+#s3 {
+	background: url(../images/assignment.jpg) no-repeat fixed center center;
+	background-size: cover;
+
+}
+
+
+/* fixed position example */
+nav {
+	background-color: seashell;
+	font-style: italic;
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+/*	top: 0;*/
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+div {
+	background-color: transform;
+	color: seashell;
+	width: 80%;
+	padding: 5px;
+	margin: 10px auto 5px;
+
+}
+/*section.floater is fine to use*/
+.floater {
+/* 
+	background-color: transform;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	
+	float: left;
+	margin: 0 10px 10px 0;
+ */
+	
+  border-radius: 25px;
+  border: 2px solid seashell;
+  padding: 20px; 
+  width: 50px;
+  height: 40px;  
+	
+	
+}
+
+a:link {
+	color: #666;
+	display: inline-block;
+	padding:10px 20px;
+	text-decoration:underline;
+	background-color: transform;
+/*	text-transform: uppercase;*/
+	
+
+}
+
+a:visited {
+	color:grey;
+
+}
+
+a:hover {
+/*	background-color: seashell;*/
+	color:grey;
+
+	
+	border-radius: 25px;
+  	border: 2px solid seashell;
+	padding: 20px; 
+
+	
+}
+
+a:active {
+	color:black;
+}
+
+article p {
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 32px;
+/*	padding-right: 100px;*/
+	text-align: center;
+	
+	border-radius: 25px;
+  	border: 2px solid seashell;
+
+  	padding: 20px; 
+ /* width: 50px;
+  height: 40px; 
+*/
+
+}
+
+h1 {
+	color:white;
+	font-size: 35px;
+	/* line-height: 65px; */
+	padding : 20px;
+
+}
